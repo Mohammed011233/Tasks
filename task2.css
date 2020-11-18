@@ -1,0 +1,124 @@
+body{
+    margin-top: 0;
+    background-image:url("https://images3.alphacoders.com/823/thumb-1920-82317.jpg") ;
+    background:cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+}
+h1{
+    color: white;
+    margin: 10px 0 0 10px;
+    display: block;
+    float: left;
+}
+.link{
+    position: absolute;
+    margin: 0px 0px 0px 80%;
+    padding: 0px 10% 0px 0px;
+    background-color: blue;
+    width: 20%;
+    opacity: 50%;
+    height: 100%;
+}
+ul{
+   margin-top: 100px;
+    width: 83%;
+}
+ul li{
+    display: block;
+    list-style-type: none;
+    width: 100%;
+    margin-right: 10px;
+    margin-top: 20%;
+    text-align: center;
+    margin-top: 30px;
+   
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+}
+.bar{
+    cursor:pointer;
+    position: fixed;
+    display: block;
+    float: left;
+    left: 85%;
+    top: 5px;
+    background: blue;
+    opacity: 60%;
+    color: white;
+    font-size: 20px;
+    font-family: fantasy;
+    padding: 10px;
+}
+
+
+.container1{
+    background: white;
+    position: fixed;
+    top: 20%;
+    left: 23%;
+    width: 500px;
+    height: 500px;
+    
+}
+
+.container2{
+    background: white;
+    border: 5px solid darkgray;
+   
+    border-radius: 30px;
+    position: fixed;
+    top:23%;
+    left: 29%;
+    width: 300px;
+    height: 450px;
+        
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family:bold;
+    color: blue; 
+}
+h3{
+    text-align: center;
+}
+
+input[type="text"] , input[type="password"] , input[type="submit"]  {
+   
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    border: 5px outside ;
+    border-color:darkgrey;
+    border-radius:15px; 
+    margin:3px 0px 10px 25px;
+}
+
+input[type="submit"]{
+    background-color: blue;
+    border-color: blue;
+    color: white;
+    font-size: 20px;
+    margin: 2px 0px 0px 30px;
+    cursor: pointer;
+}
+
+.option{
+    margin: 15px 0px 0px 30px;
+    font-size: 18px;
+}
+
+.option a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
